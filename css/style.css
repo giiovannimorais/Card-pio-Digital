@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f7f7f7;
+  color: #333;
+}
+
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background: #140b02;
+}
+.header p {
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header img {
+    width: 250px;
+}
+.category {
+    scroll-margin-top: 100px;
+}
+
+.logo {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+
+.categories {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding: 10px;
+  background: #fff;
+}
+
+.categories button {
+  padding: 10px 15px;
+  border: none;
+  background: #eee;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.categories {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 10;
+}
+
+
+/* Cardápio */
+.menu {
+  padding: 15px;
+}
+
+.category h2 {
+  margin-bottom: 10px;
+}
+
+.item {
+  display: flex;
+  gap: 10px;
+  background: #fff;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.item img {
+  width: 90px;
+  height: 90px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.preco {
+  font-weight: bold;
+  color: #27ae60;
+}
+
+/* Footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #27ae60;
+  text-align: center;
+  padding: 15px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
